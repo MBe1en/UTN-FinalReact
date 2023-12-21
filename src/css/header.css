@@ -1,0 +1,31 @@
+.header {
+  position: absolute;
+  top: 50px;
+  width: 90%;
+  padding: 5px;
+  height: 80px;
+  margin-bottom: 10px;
+  background: #0c79b0;
+  background-image: -webkit-linear-gradient(bottom, #0c79b0 7%, #0c79b0 100%);
+  background-image: -moz-linear-gradient(bottom, #0c79b0 7%, #0c79b0 100%);
+  background-image: -o-linear-gradient(bottom, #0c79b0 7%, #0c79b0 100%);
+  background-image: linear-gradient(bottom, #0c79b0 7%, #0c79b0 100%);
+  text-align: left;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #272525;
+  -webkit-box-shadow: 2px 2px 3px #888;
+  -moz-box-shadow: 2px 2px 3px #888;
+  box-shadow: 2px 2px 3px #888;
+}
+
+@font-face {
+  font-family: Simpson;
+  src: url(../assets/SimpsonfontDEMO.otf);
+}
+
+.header p {
+  color: white;
+  font-size: 40px;
+  margin: 10px 50px 10px 120px;
+  font-family: Simpson !important;
+}

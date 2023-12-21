@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap");
+
+#root {
+  width: 90%;
+  margin: 0 35px;
+  padding: 2rem;
+  text-align: center;
+}
+
+body {
+  background-image: url("./assets/back3.jpg");
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 3px;
+}
